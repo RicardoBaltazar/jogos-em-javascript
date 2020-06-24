@@ -15,7 +15,7 @@ export default function Fragmento(props){
         //...neste elemento fragmentado
        <>
             <h2>Fragmento</h2>
-            <p>Cuidade com ewsse erro</p>
+            <p>Cuidade com esse erro</p>
        </>
     )
 }

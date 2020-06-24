@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ComParametro(props){
+export default function ComParametro(props) {
     console.log(props)
     const sub = props.subtitulo
     return (
