@@ -1,0 +1,4 @@
+**REACT
+
+- npx create-react-app
+- dentro da apasta --> npm start
