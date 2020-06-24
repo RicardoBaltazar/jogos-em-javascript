@@ -1,0 +1,29 @@
+.card {
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+} 
+
+.card .title {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card .content {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
