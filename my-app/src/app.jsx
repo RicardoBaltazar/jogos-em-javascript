@@ -2,6 +2,7 @@ import React from 'react'
 
 import Card from "./componentes/layout/Card"
 
+import ListaAlunos from "./componentes/repetição/ListaAlunos"
 import Familia from "./componentes/básicos/Familia"
 import Aleatorio from "./componentes/básicos/Aleatorio"
 import Primeiro from './componentes/básicos/Primeiro'
@@ -13,6 +14,10 @@ export default function App(props) {
         <div id="App">
 
             <div className="cards">
+                <Card titulo="repetição" color="#ff4c65">
+                    <ListaAlunos />
+                </Card>
+
                 <Card titulo="componentes com filhos" color="#00c8f8">
                     <Familia sobrenome="Silva"/>
                 </Card>

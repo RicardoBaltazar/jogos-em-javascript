@@ -1,6 +1,8 @@
 import React from 'react'
 import FamiliaMembro from "./FamiliaMembro"
 
+
+//usando o spread se consegue passar todos os atributos automaticamente
 export default function Familia(props){
     return (
         <div>
