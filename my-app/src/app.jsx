@@ -12,20 +12,20 @@ export default function App(props) {
         <div id="App">
 
             <div className="cards">
-                <Card titulo="exemplo de card">
+                <Card titulo="exemplo de card" color="#080">
                     <Aleatorio min={1} max={50} />
                 </Card>
 
-                <Card titulo="Fragmento">
+                <Card titulo="Fragmento" color="#000000">
                     <Fragmento />
                 </Card>
 
-                <Card titulo="Parametro">
+                <Card titulo="Parametro" color="#0300b3">
                     <ComParametro titulo="primeiro titulo" subtitulo="Segundo titulo" />
                     <Primeiro />
                 </Card>
             </div>
-            
+
         </div>
     )
 }
