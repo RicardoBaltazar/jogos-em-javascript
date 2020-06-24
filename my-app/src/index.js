@@ -4,6 +4,7 @@ import React from 'react'
 
 import Primeiro from './componentes/básicos/Primeiro'
 import ComParametro from './componentes/básicos/ComParametro'
+import Fragmento from './componentes/básicos/Fragmento'
 
 ReactDOM.render(
     <div>
