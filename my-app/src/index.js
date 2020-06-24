@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 
 import Primeiro from './componentes/básicos/Primeiro'
-//import primeiro from './componentes/básicos/Primeiro'
+import ComParametro from './componentes/básicos/ComParametro'
 
 ReactDOM.render(
     <div>
-        <Primeiro></Primeiro>
+        <Primeiro/>
+        <ComParametro titulo="primeiro titulo" subtitulo="Segundo titulo"/>
     </div>
 , document.getElementById('root')
 )
