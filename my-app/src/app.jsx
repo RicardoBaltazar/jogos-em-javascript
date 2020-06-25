@@ -2,6 +2,7 @@ import React from 'react'
 
 import Card from "./componentes/layout/Card"
 
+import TabelaProdutos from "./componentes/repetição/TabelaProdutos"
 import ListaAlunos from "./componentes/repetição/ListaAlunos"
 import Familia from "./componentes/básicos/Familia"
 import Aleatorio from "./componentes/básicos/Aleatorio"
@@ -14,6 +15,10 @@ export default function App(props) {
         <div id="App">
 
             <div className="cards">
+                <Card titulo="tabela de produtos" color="#349ad9">
+                    <TabelaProdutos />
+                </Card>
+
                 <Card titulo="repetição" color="#ff4c65">
                     <ListaAlunos />
                 </Card>
