@@ -8,3 +8,5 @@
 * Pode criar componentes e colocar estes componentes dentro dos cards usando o props.children para os cards aceitarem componentes filhos.
 
 
+comunicação direta. de pai para filho
+comunicação indireta, do componente filho para o componente pai
