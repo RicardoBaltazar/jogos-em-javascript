@@ -3,13 +3,18 @@ import IndiretaFilho from "./IndiretaFilho"
 
 export default props => {
 
-    function fornecerInformações(nome){
-        console.log(nome)
+    let nome = ''
+
+    function fornecerInformações(nomeParam) {
+        nome = nomeParam
     }
 
     return (
         <div>
-            <IndiretaFilho quandoClicar={fornecerInformações}/>
+            <div>
+                <span>{nome}</span>
+            </div>
+            <IndiretaFilho quandoClicar={fornecerInformações} />
         </div>
     )
 }
