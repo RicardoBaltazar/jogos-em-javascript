@@ -2,6 +2,8 @@ import React from 'react'
 
 import Card from "./componentes/layout/Card"
 
+import UsuarioInfo from "./componentes/condicional/UsuarioInfo"
+import ParOuImpar from "./componentes/condicional/ParOuImpar"
 import TabelaProdutos from "./componentes/repetição/TabelaProdutos"
 import ListaAlunos from "./componentes/repetição/ListaAlunos"
 import Familia from "./componentes/básicos/Familia"
@@ -15,6 +17,11 @@ export default function App(props) {
         <div id="App">
 
             <div className="cards">
+                <Card titulo="Renderização Condicional" color="#982395">
+                    <ParOuImpar numero={20}/>
+                    <UsuarioInfo usuario={{nome: 'Ricardo'}}/>
+                </Card>
+
                 <Card titulo="tabela de produtos" color="#349ad9">
                     <TabelaProdutos />
                 </Card>
