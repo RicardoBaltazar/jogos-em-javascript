@@ -1,12 +1,14 @@
-import React from 'react'
+//a partir do use state podemos criar stados dentro dos componentes
+
+import React, {useState} from 'react'
 import IndiretaFilho from "./IndiretaFilho"
 
 export default props => {
 
-    let nome = ''
+    let [nome, setNome] = useState('')
 
-    function fornecerInformações(nomeParam) {
-        nome = nomeParam
+    function fornecerInformações(nome) {
+        setNome(nome)
     }
 
     return (
