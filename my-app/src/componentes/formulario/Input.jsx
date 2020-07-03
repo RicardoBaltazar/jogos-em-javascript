@@ -20,3 +20,7 @@ export default props => {
         </div>
     )
 }
+
+//Componentes controlados tem vinculo com estados.
+//para mudar o componente visual, primeiro tem que mudar o estado.
+//o etado muda e o componente visual também muda
