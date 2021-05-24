@@ -1,0 +1,11 @@
+.card {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    padding: 5rem;
+    background-color: #1E90FF;
+}
+
+.car span {
+    color: #fff;
+    font-size: 2rem;
+}
